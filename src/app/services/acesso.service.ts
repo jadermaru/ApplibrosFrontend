@@ -34,8 +34,5 @@ export class AcessoService {
     );
   }
 
-  getById(id: number): Observable<ResponseBook> {
-    return this.http.get<ResponseBook>(`${this.baseUrl}Book/Books/${id}`);
-  }
   
 }

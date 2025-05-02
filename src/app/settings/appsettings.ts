@@ -1,4 +1,4 @@
 export const appsetting = {
-    apiurl: "https://localhost:44316/api/"
+    apiurl: "https://applibros-11.onrender.com/api/"
   };
   
